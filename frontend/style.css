@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#answer {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.controls {
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    gap: 15px;           /* Space between button and status */
+    margin-bottom: 15px;
+}
+
+#status {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.loading { 
+    color: #007bff; 
+    font-weight: bold; 
+}
