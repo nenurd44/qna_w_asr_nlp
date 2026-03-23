@@ -1,0 +1,13 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment variables (Crucial for security!)
+.env
