@@ -2,12 +2,8 @@ let mediaRecorder;
 let audioChunks = [];
 let isRecording = false;
 
-// Tip: When you deploy, you can change this URL easily in one place
 const BASE_URL = "https://unheuristically-unanecdotal-simonne.ngrok-free.dev";
 
-/**
- * Handles the logic for recording audio from the user's microphone.
- */
 async function toggleRecording() {
     const button = document.getElementById("recordBtn");
     const status = document.getElementById("status");
@@ -64,9 +60,6 @@ async function toggleRecording() {
     }
 }
 
-/**
- * Sends the text from the textarea to the backend /ask endpoint.
- */
 async function sendText() {
     const text = document.getElementById("textbox").value;
     const answerDiv = document.getElementById("answer");
